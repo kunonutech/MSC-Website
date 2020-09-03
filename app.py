@@ -15,7 +15,8 @@ def about():
 
 @app.route("/Mfuko wa daktari")
 def mfuko_daktari():
-    return "Hey Future Doctors .The world is yours"
+    return "Hey Future Doctors .The world is yours." \
+           "Focus on your future "
 
 
 if __name__ == '__main__':
